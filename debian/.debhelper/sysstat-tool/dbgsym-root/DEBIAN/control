@@ -1,0 +1,13 @@
+Package: sysstat-tool-dbgsym
+Package-Type: ddeb
+Source: sysstat-tool
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Yahya Khan <yahya.b.khan@gmail.ca>
+Installed-Size: 15
+Depends: sysstat-tool (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for sysstat-tool
+Build-Ids: a5764920c2747280520d09b37201c023d96ef6d8

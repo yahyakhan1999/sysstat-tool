@@ -1,0 +1,11 @@
+Package: sysstat-tool
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Yahya Khan <yahya.b.khan@gmail.ca>
+Installed-Size: 24
+Depends: libc6
+Section: utils
+Priority: optional
+Description: A simple system stats collector
+ Reads CPU and memory information directly from the Linux kernel
+ proc filesystem and displays system statistics.

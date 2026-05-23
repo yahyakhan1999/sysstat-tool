@@ -1,0 +1,6 @@
+sysstat-tool (1.0-1) unstable; urgency=low
+
+  * Initial release.
+  * Reads /proc/meminfo and /proc/loadavg directly from kernel.
+
+ -- Yahya Khan <yahya.b.khan@gmail.ca>  Fri, 22 May 2026 10:00:00 +0000

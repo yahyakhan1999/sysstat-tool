@@ -1,0 +1,13 @@
+Source: sysstat-tool
+Section: utils
+Priority: optional
+Maintainer: Yahya Khan <yahya.b.khan@gmail.ca>
+Build-Depends: debhelper-compat (= 13), gcc
+Standards-Version: 4.6.0
+
+Package: sysstat-tool
+Architecture: amd64
+Depends: libc6
+Description: A simple system stats collector
+ Reads CPU and memory information directly from the Linux kernel
+ proc filesystem and displays system statistics.

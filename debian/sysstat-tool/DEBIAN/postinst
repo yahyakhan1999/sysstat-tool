@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "sysstat-tool installed successfully!"
+echo "Run it with: sysstat"
+exit 0
