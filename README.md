@@ -34,3 +34,18 @@ sysstat
 make
 sudo apt install ./path/to/sysstat-tool_1.0-1_amd64.deb
 ```
+
+## Docker
+
+Run without installing anything:
+
+```bash
+docker run yahyakhan1999/sysstat-tool
+```
+
+Or build it yourself:
+
+```bash
+docker build -t sysstat-tool .
+docker run sysstat-tool
+```
